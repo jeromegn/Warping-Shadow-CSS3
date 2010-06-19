@@ -6,10 +6,6 @@ body {
 
 /* line 7 */
 #warped {
-  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
-  -o-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
   background: white;
   position: absolute;
   z-index: 1;
@@ -23,7 +19,7 @@ body {
   margin-left: -250px;
 }
 
-/* line 21 */
+/* line 20 */
 #right_warp {
   position: absolute;
   top: 141px;
@@ -42,7 +38,7 @@ body {
   transform: rotate(4deg);
 }
 
-/* line 32 */
+/* line 31 */
 #left_warp {
   position: absolute;
   top: 141px;
