@@ -1,0 +1,41 @@
+@import "compass/css3"
+
+body
+  background: #eee
+  
+#warped
+  +box-shadow(rgba(0,0,0,0.2), 0px, 2px, 2px)
+  background: #fff
+  position: absolute
+  z-index: 1
+  height: 25px
+  line-height: 25px
+  padding: 25px 0
+  text-align: center
+  width: 500px
+  top: 100px
+  left: 50%
+  margin-left: -250px
+  
+#right_warp
+  position: absolute
+  top: 141px
+  z-index: -1
+  width: 400px
+  right: 50%
+  margin-right: -238px
+  height: 20px
+  +box-shadow(rgba(0,0,0,0.8), 0px, 0px, 50px)
+  +rotate(4deg)
+  
+#left_warp
+  position: absolute
+  top: 141px
+  bottom: 7px
+  z-index: -1
+  width: 400px
+  height: 20px
+  left: 50%
+  margin-left: -238px
+  +box-shadow(rgba(0,0,0,0.8), 0px, 0px, 50px)
+  +rotate(-4deg)
