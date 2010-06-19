@@ -1,0 +1,63 @@
+/* line 3 */
+body {
+  background: #eeeeee;
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+}
+
+/* line 7 */
+#warped {
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+  -o-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+  background: white;
+  position: absolute;
+  z-index: 1;
+  height: 25px;
+  line-height: 25px;
+  padding: 25px 0;
+  text-align: center;
+  width: 500px;
+  top: 100px;
+  left: 50%;
+  margin-left: -250px;
+}
+
+/* line 21 */
+#right_warp {
+  position: absolute;
+  top: 141px;
+  z-index: -1;
+  width: 400px;
+  right: 50%;
+  margin-right: -238px;
+  height: 20px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 50px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 50px;
+  -o-box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 50px;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 50px;
+  -moz-transform: rotate(4deg);
+  -webkit-transform: rotate(4deg);
+  -o-transform: rotate(4deg);
+  transform: rotate(4deg);
+}
+
+/* line 32 */
+#left_warp {
+  position: absolute;
+  top: 141px;
+  bottom: 7px;
+  z-index: -1;
+  width: 400px;
+  height: 20px;
+  left: 50%;
+  margin-left: -238px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 50px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 50px;
+  -o-box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 50px;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 50px;
+  -moz-transform: rotate(-4deg);
+  -webkit-transform: rotate(-4deg);
+  -o-transform: rotate(-4deg);
+  transform: rotate(-4deg);
+}
