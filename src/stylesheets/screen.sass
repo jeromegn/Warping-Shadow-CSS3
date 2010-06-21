@@ -3,39 +3,41 @@
 body
   background: #eee
   font-family: "helvetica neue", helvetica, arial, sans-serif
-  
+
 #warped
-  background: #fff
-  position: absolute
-  z-index: 1
-  height: 25px
-  line-height: 25px
-  padding: 25px 0
+  position: relative
+  z-index: 0
+  padding: 0
+  margin: 50px auto
+  font-weight: normal
+  line-height: 1.2
   text-align: center
+  background: #fff
   width: 500px
-  top: 100px
-  left: 50%
-  margin-left: -250px
+  &:before, &:after
+    position: absolute
+    z-index: -1
+  &:before
+    content: ""
+    text-align: left
+    background: transparent
+    bottom: 20%
+    right: 10px
+    width: 50%
+    height: 40%
+    +rotate(4deg)
+    +box-shadow(rgba(0,0,0,0.7), 0px, 0px, 50px)
+  &:after
+    content: ""
+    text-align: right
+    background: transparent
+    left: 10px
+    bottom: 20%
+    width: 50%
+    height: 40%
+    +rotate(-4deg)
+    +box-shadow(rgba(0,0,0,0.7), 0px, 0px, 50px)
   
-#right_warp
-  position: absolute
-  top: 141px
-  z-index: -1
-  width: 400px
-  right: 50%
-  margin-right: -238px
-  height: 20px
-  +box-shadow(rgba(0,0,0,0.8), 0px, 0px, 50px)
-  +rotate(4deg)
-  
-#left_warp
-  position: absolute
-  top: 141px
-  bottom: 7px
-  z-index: -1
-  width: 400px
-  height: 20px
-  left: 50%
-  margin-left: -238px
-  +box-shadow(rgba(0,0,0,0.8), 0px, 0px, 50px)
-  +rotate(-4deg)
+  .content
+    background: #fff
+    padding: 30px 0

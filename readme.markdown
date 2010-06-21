@@ -4,7 +4,7 @@ According to [this post](http://buildinternet.com/2010/06/warping-drop-shadows-t
 
 So I built this little StaticMatic site to quickly prototype the warp.
 
-![Preview](http://jgn.me/labs/css3warp/preview.png)
+![Preview](http://jgn.me/labs/css3warp/images/preview.png)
 
 *Obviously, I'm exaggerating...*
 
